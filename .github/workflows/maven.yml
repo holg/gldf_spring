@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Java CI with Maven on macOS
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest  # Use macOS runner
 
     steps:
     - name: Checkout code
